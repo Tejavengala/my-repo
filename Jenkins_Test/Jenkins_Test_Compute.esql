@@ -5,7 +5,7 @@ CREATE COMPUTE MODULE Jenkins_Test_Compute
 	BEGIN
 		-- CALL CopyMessageHeaders();
 		-- CALL CopyEntireMessage();
-		SET OutputRoot.JSON.Data.message='success';
+		SET OutputRoot.JSON.Data.message='success response from Jenkins';
 		RETURN TRUE;
 	END;
 
